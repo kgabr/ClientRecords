@@ -1,0 +1,100 @@
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\bin\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\bin\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\bin\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 12 _ 2\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\bin\Release\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
+C:\Users\Gábor\Desktop\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe.config
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.exe
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.pdb
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\bin\Release\BillingWinForms.pdb
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticleDialog.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.ArticlesForm.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillDialog.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillLineDialog.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.BillsForm.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomerDialog.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.CustomersForm.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.ExitForm.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.MainForm.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.Properties.Resources.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListDialog.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
+C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache

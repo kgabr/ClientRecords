@@ -1,0 +1,128 @@
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleForm.resources
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing v0.5\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Billing v0.51\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.52\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Billing v0.55\Billing\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Billing v0.6\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Billing v0.61\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\bin\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\bin\Debug\BillingWinForms.pdb
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticleDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.ArticlesForm.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillLineDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.BillsForm.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomerDialog.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.CustomersForm.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.ExitForm.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.MainForm.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.Properties.Resources.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.csproj.GenerateResource.Cache
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.UserListForm.resources
+C:\Users\Gábor\Desktop\Billing v0.62\Billing\BillingWinForms\obj\Debug\BillingWinForms.UserListDialog.resources
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\bin\Debug\BillingWinForms.exe.config
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Debug\BillingWinForms.exe
+C:\Users\Gábor\Desktop\Client Records\Client Records\BillingWinForms\obj\Debug\BillingWinForms.pdb

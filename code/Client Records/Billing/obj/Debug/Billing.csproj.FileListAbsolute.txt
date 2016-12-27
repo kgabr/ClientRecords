@@ -1,0 +1,6 @@
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\Billing\bin\Debug\Billing.exe.config
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\Billing\obj\Debug\Billing.csprojResolveAssemblyReference.cache
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\Billing\bin\Debug\Billing.exe
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\Billing\bin\Debug\Billing.pdb
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\Billing\obj\Debug\Billing.exe
+C:\Users\Gábor\OneDrive\Documents\C# projects\Billing\Billing\Billing\obj\Debug\Billing.pdb

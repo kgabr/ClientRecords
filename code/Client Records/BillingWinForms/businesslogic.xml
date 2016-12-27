@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <customers>
+        <Customer>
+            <CustomerID>3</CustomerID>
+            <Name>Orsolya</Name>
+            <Address>jsjsjsjsjs4444
+</Address>
+        </Customer>
+        <Customer>
+            <CustomerID>4</CustomerID>
+            <Name>Tamas</Name>
+            <Address>kk</Address>
+        </Customer>
+        <Customer>
+            <CustomerID>5</CustomerID>
+            <Name>Peter</Name>
+            <Address>ssaa</Address>
+        </Customer>
+        <Customer>
+            <CustomerID>6</CustomerID>
+            <Name>Test user</Name>
+            <Address>Test address
+</Address>
+        </Customer>
+    </customers>
+    <articles>
+        <Article>
+            <ArticleID>1</ArticleID>
+            <Name>Pear</Name>
+            <Price>4</Price>
+            <Quantity>22</Quantity>
+        </Article>
+        <Article>
+            <ArticleID>2</ArticleID>
+            <Name>Apple</Name>
+            <Price>1</Price>
+            <Quantity>100</Quantity>
+        </Article>
+        <Article>
+            <ArticleID>3</ArticleID>
+            <Name>Peach</Name>
+            <Price>1</Price>
+            <Quantity>200</Quantity>
+        </Article>
+        <Article>
+            <ArticleID>4</ArticleID>
+            <Name>Cucumber</Name>
+            <Price>4</Price>
+            <Quantity>772</Quantity>
+        </Article>
+    </articles>
+    <bills>
+        <Bill>
+            <BillID>1</BillID>
+            <CustomerID>3</CustomerID>
+            <Number>1</Number>
+            <Date>2014-07-27</Date>
+        </Bill>
+        <Bill>
+            <BillID>5</BillID>
+            <CustomerID>6</CustomerID>
+            <Number>1</Number>
+            <Date>2014-07-27</Date>
+        </Bill>
+    </bills>
+    <billLines>
+        <BillLine>
+            <BillLineID>9</BillLineID>
+            <BillID>5</BillID>
+            <Quantity>8</Quantity>
+            <ExpireDate>2014-07-27</ExpireDate>
+            <DiscountValue>7</DiscountValue>
+            <ArticleID>1</ArticleID>
+        </BillLine>
+        <BillLine>
+            <BillLineID>10</BillLineID>
+            <BillID>5</BillID>
+            <Quantity>55</Quantity>
+            <ExpireDate>2014-07-27</ExpireDate>
+            <DiscountValue>4</DiscountValue>
+            <ArticleID>1</ArticleID>
+        </BillLine>
+    </billLines>
+</XMLData>
