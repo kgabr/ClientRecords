@@ -26,14 +26,8 @@ namespace BillingWinForms
             customersToolStripMenuItem.Visible = false;
         }
         UserListForm userListForm = new UserListForm();
-        CustomersForm customersForm = new CustomersForm();
-        BillsForm billsForm = new BillsForm();
-        ArticlesForm articlesForm = new ArticlesForm();
 
-        private void customersToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showOrHideForm(customersForm);
-        }
+
 
         private void showOrHideForm(Form form)
         {
@@ -59,15 +53,7 @@ namespace BillingWinForms
         {
             showOrHideForm(userListForm);
         }
-        private void billsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showOrHideForm(billsForm);
-        }
 
-        private void articlesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showOrHideForm(articlesForm);
-        }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {

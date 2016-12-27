@@ -29,66 +29,11 @@ namespace Billing
         public string DateExp { get; set; }
 
     }
-    public class Customer
-    {
-        public int CustomerID { get; set; }
-        public string Name { get; set; }
-        public string Address { get; set; }
 
-    }
-
-    public class Article
-    {
-        public int ArticleID { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public int Quantity { get; set; }
-    }
-
-    public class Bill 
-    {
-        public int BillID { get; set; }
-        public int CustomerID { get; set; }
-        
-        public long Number { get; set; }
-
-        [XmlElementAttribute(DataType = "date")]
-        public DateTime Date { get; set; }
-    }
-
-    public class BillLine
-    {
-        public int BillLineID { get; set; }
-        public int BillID { get; set; }
-        public decimal Quantity { get; set; }
-
-        [XmlElementAttribute(DataType = "date")]
-        public DateTime ExpireDate { get; set; }
-        public decimal DiscountValue { get; set; }
-        public int ArticleID { get; set; }
-
-
-        public BillLine Copy()
-        {
-            return new BillLine() { 
-                BillLineID = this.BillLineID,
-                BillID = this.BillID,
-                Quantity = this.Quantity,
-                ExpireDate = this.ExpireDate,
-                DiscountValue = this.DiscountValue,
-                ArticleID = this.ArticleID
-            };
-        }
-    }
 
     public class XMLData
     {
         public User[] users;
-        public Customer[] customers;
-        public Article[] articles;
-
-        public Bill[] bills;
-        public BillLine[] billLines;
 
 
         public long number;
@@ -138,10 +83,7 @@ namespace Billing
     class BusinessLogic
     {
         List<User> users = new List<User>();
-        List<Customer> customers = new List<Customer>();
-        List<Article> articles = new List<Article>();
-        List<Bill> bills = new List<Bill>();
-        List<BillLine> billLines = new List<BillLine>();
+        
         PersistentData pData = new PersistentData();
 
         //pData.LastReportDate
@@ -207,249 +149,6 @@ namespace Billing
             return max;
         }
 
-        //CUSTOMER HANDLING
-
-        public void InsertCustomer(Customer customer)
-        {
-            customer.CustomerID = nextCustomerID;
-            nextCustomerID++;
-
-            customers.Add(customer);
-        }
-
-        public void DeleteCustomer(int customerID)
-        {
-            int index = findCustomerIndex(customerID);
-
-            foreach (Bill bill in bills)
-            {
-                if (bill.CustomerID == customerID)
-                {
-
-                    MessageBox.Show("Customer has bill referring to it");
-                    return;
-                    //th//row new InvalidOperationException("Customer has bills referring to it");
-                }
-            }
-
-
-            if (index >= 0)
-            {
-                customers.RemoveAt(index);
-            }
-        }
-
-        public Customer[] GetCustomers()
-        {
-            return customers.ToArray();
-        }
-
-        public Customer GetCustomer(int customerID)
-        {
-            int index = findCustomerIndex(customerID);
-            if (index >= 0)
-            {
-                return customers[index];
-            }
-            return null;
-        }
-
-        public string GetCustomerName(int customerID)
-        {
-            Customer cust = BusinessLogic.DB.GetCustomer(customerID);
-            if (cust != null)
-            {
-                return cust.Name;
-            }
-            return "";
-        }
-
-        private int findCustomerIndex(int customerID)
-        {
-            return customers.FindIndex(cust => cust.CustomerID == customerID);
-        }
-
-        private int maxCustomerID()
-        {
-            int max = 0;
-            foreach (Customer cust in customers)
-            {
-                if (cust.CustomerID > max)
-                {
-                    max = cust.CustomerID;
-                }
-            }
-            return max;
-        }
-
-        //ARTICLE HANDLING
-
-        public void InsertArticle(Article article)
-        {
-            article.ArticleID = nextArticleID;
-            nextArticleID++;
-
-            articles.Add(article);
-        }
-
-        public void DeleteArticle(int articleID)
-        {
-            int index = findArticleIndex(articleID);
-
-            if (index >= 0)
-            {
-                articles.RemoveAt(index);
-            }
-        }
-
-        public Article[] GetArticles()
-        {
-            return articles.ToArray();
-        }
-
-        public Article GetArticle(int articleID)
-        {
-            int index = findArticleIndex(articleID);
-            if (index >= 0)
-            {
-                return articles[index];
-            }
-            return null;
-        }
-
-        private int findArticleIndex(int articleID)
-        {
-            return articles.FindIndex(art => art.ArticleID == articleID);
-        }
-
-        private int maxArticleID()
-        {
-            int max = 0;
-            foreach (Article art in articles)
-            {
-                if (art.ArticleID > max)
-                {
-                    max = art.ArticleID;
-                }
-            }
-            return max;
-        }
-
-        //BILL HANDLING
-
-        public Bill[] GetBills()
-        {
-            return bills.ToArray();
-        }
-
-        public Bill GetBill(int billID)
-        {
-            int index = findBillIndex(billID);
-            if (index >= 0)
-            {
-                return bills[index];
-            }
-            return null;
-        }
-
-        private int findBillIndex(int billID)
-        {
-            return bills.FindIndex(bill => bill.BillID == billID);
-        }
-
-        public void InsertBill(Bill bill)
-        {
-            bill.BillID = nextBillID;
-            nextBillID++;
-            if (bill.Number >= nextBillNumber)
-            {
-                nextBillNumber = bill.Number + 1;
-            }
-            bills.Add(bill);
-        }
-
-        public void DeleteBill(int billID)
-        {
-            int index = findBillIndex(billID);
-            if (index > 0)
-            {
-                bills.RemoveAt(index);
-            }
-            for (int i = 0; i < billLines.Count; i++)
-            {
-                if (billLines[i].BillID == billID)
-                {
-                    billLines.RemoveAt(i);
-                    i--;
-                }
-            }
-
-       
-        }
-
-        public Decimal GetBillTotal(int billID)
-        {
-            return GetBillTotal(GetBillLines(billID));
-        }
-
-        public Decimal GetBillTotal(BillLine[] lines)
-        {
-            Decimal total = 0;
-            foreach (BillLine line in lines)
-            {
-                Article art = GetArticle(line.ArticleID);
-                total += art.Price * line.Quantity - line.DiscountValue;
-            }
-            return total;
-        }
-
-        public BillLine[] GetBillLines(int billID)
-        {
-            List<BillLine> lines = new List<BillLine>();
-            foreach (BillLine line in billLines)
-            {
-                if (line.BillID == billID)
-                {
-                    lines.Add(line);
-                }
-            }
-            return lines.ToArray();
-        }
-
-        public long NextBillNumber
-        {
-            get
-            {
-                return nextBillNumber;
-            }
-        }
-
-        private int findBillLineIndex(int billLineID)
-        {
-            return billLines.FindIndex(line => line.BillLineID == billLineID);
-        }
-
-        public void InsertBillLine(BillLine line)
-        {
-            line.BillLineID = nextBillLineID;
-            nextBillLineID++;
-            billLines.Add(line);
-        }
-
-        public void UpdateBillLine(BillLine line)
-        {
-            int index = findBillLineIndex(line.BillLineID);
-            billLines[index] = line;
-        }
-
-        public void DeleteBillLine(int billLineID)
-        {
-            int index = findBillLineIndex(billLineID);
-            if (index > 0)
-            {
-                billLines.RemoveAt(index);
-            }
-        }
 
         //PERSISTENT DATA HANDLING
         public string GetLastReportDate()
@@ -468,10 +167,6 @@ namespace Billing
         {
             XMLData xmlData = new XMLData();
             xmlData.users = users.ToArray();
-            xmlData.customers = customers.ToArray();
-            xmlData.articles = articles.ToArray();
-            xmlData.bills = bills.ToArray();
-            xmlData.billLines = billLines.ToArray();
             xmlData.number = nextBillNumber;
             //xmlData.lastReportDate = GetLastReportDate().ToString();
 
@@ -490,10 +185,6 @@ namespace Billing
         {
             XMLData xmlData = new XMLData();
             xmlData.users = users.ToArray();
-            xmlData.customers = customers.ToArray();
-            xmlData.articles = articles.ToArray();
-            xmlData.bills = bills.ToArray();
-            xmlData.billLines = billLines.ToArray();
             xmlData.number = nextBillNumber;
             //xmlData.lastReportDate = GetLastReportDate().ToString();
             string savePath = @"backup\" + GetTodaysDate(DateTime.Today) + "\\";
@@ -520,36 +211,6 @@ namespace Billing
             }
             nextUserID = maxUserID() + 1;
 
-            customers = new List<Customer>();
-            if (xmlData.customers != null)
-            {
-                customers.AddRange(xmlData.customers);
-            }
-            nextCustomerID = maxCustomerID() + 1;
-
-            articles = new List<Article>();
-            if (xmlData.articles != null)
-            {
-                articles.AddRange(xmlData.articles);
-            }
-            nextArticleID = maxArticleID() + 1;
-
-            bills = new List<Bill>();
-            if (xmlData.bills != null)
-            {
-                bills.AddRange(xmlData.bills);
-            }
-            maxBillID(out nextBillNumber, out nextBillID);
-            nextBillNumber++;
-            nextBillID++;
-
-            billLines = new List<BillLine>();
-            if (xmlData.billLines != null)
-            {
-                billLines.AddRange(xmlData.billLines);
-            }
-            nextBillLineID = maxBillLineID() + 1;
-
             pData = new PersistentData();
             if (xmlData.lastReportDate!=null)
             {
@@ -567,37 +228,6 @@ namespace Billing
             System.IO.File.WriteAllLines(XmlFileName, lines);
         }
 
-        private int maxBillLineID()
-        {
-            int max = 0;
-            foreach (BillLine line in billLines)
-            {
-                if (line.BillLineID > max)
-                {
-                    max = line.BillLineID;
-                }
-            }
-            return max;
-            
-        }
-
-        private void maxBillID(out long nextBillNumber, out int nextBillID)
-        {
-            nextBillNumber = 1;
-            nextBillID = 1;
-            foreach (Bill bill in bills)
-            {
-                if (bill.Number > nextBillNumber)
-                {
-                    nextBillNumber = bill.Number;
-                }
-                if (bill.BillID > nextBillID)
-                {
-                    nextBillID = bill.BillID;
-                }
-            }
-            //return maxBillID;
-        }
 
         private BusinessLogic()
         {
@@ -606,16 +236,6 @@ namespace Billing
 
         public static readonly BusinessLogic DB = new BusinessLogic();
 
-
-        public string GetArticleName(int articleID)
-        {
-            Article article = BusinessLogic.DB.GetArticle(articleID);
-            if (article != null)
-            {
-                return article.Name;
-            }
-            return "";
-        }
 
         //EXPORT TO EXCEL 
         /*public void ExportIntoExcel(ListView lvExport, string Header, string FileName)
@@ -990,15 +610,33 @@ namespace Billing
 
 
         
-        public User GetLastRecord()
-        {   
+        public User GetLastRecordDatas()
+        {
+            User returnedUser = new User();
             int lastRecordID = 1;
             foreach(User u in users) {
                 if (u.UserID > lastRecordID) {
                     lastRecordID = u.UserID;
                 }
             }
-            return GetUser(lastRecordID);
+            returnedUser = copyUserData(GetUser(lastRecordID), returnedUser);
+
+
+            return returnedUser;
+        }
+
+        private User copyUserData(User sourceUser, User destinationUser)
+        {
+            destinationUser.UserID = sourceUser.UserID;
+            destinationUser.Name = sourceUser.Name;
+            destinationUser.Cnp = sourceUser.Cnp;
+            destinationUser.Age = sourceUser.Age;
+            destinationUser.Sex = sourceUser.Sex;
+            destinationUser.Height = sourceUser.Height;
+            destinationUser.Weight = sourceUser.Weight;
+            destinationUser.Pregnant = sourceUser.Pregnant;
+            destinationUser.DateExp = sourceUser.DateExp;
+            return destinationUser;
         }
     }
 }

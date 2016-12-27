@@ -25,6 +25,7 @@ namespace BillingWinForms
             get;
             set;
         }
+        public bool isNewEntyWithLastData = false;
 
         private void btnOK_Click(object sender, EventArgs e)
         {
@@ -79,7 +80,12 @@ namespace BillingWinForms
                     User.TimeExp = float.Parse(s, CultureInfo.InvariantCulture.NumberFormat);
 
                 }
-                User.DateExp = dtDate.Value.ToString("dd-MM-yyyy"); 
+                User.DateExp = dtDate.Value.ToString("dd-MM-yyyy");
+                if (isNewEntyWithLastData)
+                {
+                    var db = BusinessLogic.DB;
+                    db.InsertUser(User);
+                }
             }
             this.DialogResult = DialogResult.OK;
         }

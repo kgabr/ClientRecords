@@ -98,3 +98,16 @@ C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13
 C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
 C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
 C:\Users\kalma\OneDrive\Documents\C# projects\Client Records versions\2015 10 13\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe.config
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.exe
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.pdb
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\bin\Release\BillingWinForms.exe
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\bin\Release\BillingWinForms.pdb
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.ExitForm.resources
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.MainForm.resources
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.Properties.Resources.resources
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListDialog.resources
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache

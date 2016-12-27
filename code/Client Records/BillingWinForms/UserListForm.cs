@@ -66,8 +66,11 @@ namespace BillingWinForms
 
         private void btnNewWithLastUser_Click(object sender, EventArgs e)
         {
-            User u = BusinessLogic.DB.GetLastRecord();
+            User u = BusinessLogic.DB.GetLastRecordDatas();
+            u.UserID++;
+            u.Name = "PIIIISKTA";
             UserListDialog dlg = new UserListDialog();
+            dlg.isNewEntyWithLastData = true;
             dlg.User = u;
             if (dlg.ShowDialog() == DialogResult.OK)
             {

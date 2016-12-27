@@ -49,49 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArticleDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArticleDialog.Designer.cs">
-      <DependentUpon>ArticleDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ArticlesForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArticlesForm.Designer.cs">
-      <DependentUpon>ArticlesForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BillDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BillDialog.Designer.cs">
-      <DependentUpon>BillDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BillLineDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BillLineDialog.Designer.cs">
-      <DependentUpon>BillLineDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BillsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BillsForm.Designer.cs">
-      <DependentUpon>BillsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="BusinessLogic.cs" />
-    <Compile Include="CustomerDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomerDialog.Designer.cs">
-      <DependentUpon>CustomerDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomersForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomersForm.Designer.cs">
-      <DependentUpon>CustomersForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="ExitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,34 +82,6 @@
     <Compile Include="UserListGenerateDialog.Designer.cs">
       <DependentUpon>UserListGenerateDialog.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ArticleDialog.resx">
-      <DependentUpon>ArticleDialog.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ArticlesForm.resx">
-      <DependentUpon>ArticlesForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BillDialog.resx">
-      <DependentUpon>BillDialog.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BillLineDialog.resx">
-      <DependentUpon>BillLineDialog.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BillsForm.resx">
-      <DependentUpon>BillsForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomerDialog.resx">
-      <DependentUpon>CustomerDialog.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomersForm.resx">
-      <DependentUpon>CustomersForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="ExitForm.resx">
       <DependentUpon>ExitForm.cs</DependentUpon>
       <SubType>Designer</SubType>

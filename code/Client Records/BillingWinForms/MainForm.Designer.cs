@@ -71,27 +71,6 @@
             this.showUserListToolStripMenuItem.Text = "SHOW";
             this.showUserListToolStripMenuItem.Click += new System.EventHandler(this.showUserListToolStripMenuItem_Click);
             // 
-            // customersToolStripMenuItem
-            // 
-            this.customersToolStripMenuItem.Name = "customersToolStripMenuItem";
-            this.customersToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.customersToolStripMenuItem.Text = "Customers";
-            this.customersToolStripMenuItem.Click += new System.EventHandler(this.customersToolStripMenuItem_Click);
-            // 
-            // billsToolStripMenuItem
-            // 
-            this.billsToolStripMenuItem.Name = "billsToolStripMenuItem";
-            this.billsToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
-            this.billsToolStripMenuItem.Text = "Bills";
-            this.billsToolStripMenuItem.Click += new System.EventHandler(this.billsToolStripMenuItem_Click);
-            // 
-            // articlesToolStripMenuItem
-            // 
-            this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
-            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.articlesToolStripMenuItem.Text = "Articles";
-            this.articlesToolStripMenuItem.Click += new System.EventHandler(this.articlesToolStripMenuItem_Click);
-            // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
