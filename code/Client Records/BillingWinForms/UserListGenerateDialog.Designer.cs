@@ -81,7 +81,10 @@
             this.rbGenerateSettingAll = new System.Windows.Forms.RadioButton();
             this.rbGenerateSettingDate = new System.Windows.Forms.RadioButton();
             this.btnShow = new System.Windows.Forms.Button();
+            this.dataGridViewExport = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewExport)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -539,7 +542,7 @@
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(554, 264);
+            this.btnExport.Location = new System.Drawing.Point(545, 516);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(89, 23);
             this.btnExport.TabIndex = 0;
@@ -549,7 +552,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(649, 264);
+            this.btnCancel.Location = new System.Drawing.Point(640, 516);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
@@ -559,7 +562,7 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(473, 264);
+            this.btnPrint.Location = new System.Drawing.Point(464, 516);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(75, 23);
             this.btnPrint.TabIndex = 2;
@@ -607,11 +610,27 @@
             this.btnShow.UseVisualStyleBackColor = true;
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
+            // dataGridViewExport
+            // 
+            this.dataGridViewExport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewExport.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1});
+            this.dataGridViewExport.Location = new System.Drawing.Point(12, 264);
+            this.dataGridViewExport.Name = "dataGridViewExport";
+            this.dataGridViewExport.Size = new System.Drawing.Size(727, 205);
+            this.dataGridViewExport.TabIndex = 8;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Examinari in functie de localizare";
+            this.Column1.Name = "Column1";
+            // 
             // UserListGenerateDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 299);
+            this.ClientSize = new System.Drawing.Size(914, 576);
+            this.Controls.Add(this.dataGridViewExport);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.rbGenerateSettingDate);
             this.Controls.Add(this.rbGenerateSettingAll);
@@ -625,6 +644,7 @@
             this.Text = "Examinari Rx Dentare";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewExport)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -685,5 +705,7 @@
         private System.Windows.Forms.RadioButton rbGenerateSettingDate;
         private System.Windows.Forms.DateTimePicker dtReportDate;
         private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.DataGridView dataGridViewExport;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }

@@ -66,9 +66,10 @@ namespace Billing
             }
             catch
             {
-                MessageBox.Show("FUCK!! No database!");
+                MessageBox.Show("Database not found!");
                 //return (XMLData)
-                throw new Exception("No database found!");
+                //throw new Exception("No database found!");
+                return null;
             }
             finally
             {
