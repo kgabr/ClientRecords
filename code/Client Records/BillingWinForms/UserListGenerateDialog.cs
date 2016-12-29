@@ -42,6 +42,18 @@ namespace BillingWinForms
             tbNrExamAge5M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 40, 100).ToString();
             tbNrExamAge5F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 40, 100).ToString();
 
+            tbNrExamTotal.Text = tbNrExamTotal_D1.Text;
+            tbNrExamAge1M_Total.Text = tbNrExamAge1M_D1.Text;
+            tbNrExamAge1F_Total.Text = tbNrExamAge1F_D1.Text;
+            tbNrExamAge2M_Total.Text = tbNrExamAge2M_D1.Text;
+            tbNrExamAge2F_Total.Text = tbNrExamAge2F_D1.Text;
+            tbNrExamAge3M_Total.Text = tbNrExamAge3M_D1.Text;
+            tbNrExamAge3F_Total.Text = tbNrExamAge3F_D1.Text;
+            tbNrExamAge4M_Total.Text = tbNrExamAge4M_D1.Text;
+            tbNrExamAge4F_Total.Text = tbNrExamAge4F_D1.Text;
+            tbNrExamAge5M_Total.Text = tbNrExamAge5M_D1.Text;
+            tbNrExamAge5F_Total.Text = tbNrExamAge5F_D1.Text;
+
         }
         private void filltableAccordingToDatePicker()
         {
@@ -105,6 +117,21 @@ namespace BillingWinForms
                 excelWorksheet.Cells[5, "L"] = tbNrExamAge4F_D1.Text;
                 excelWorksheet.Cells[5, "M"] = tbNrExamAge5M_D1.Text;
                 excelWorksheet.Cells[5, "N"] = tbNrExamAge5F_D1.Text;
+
+                excelWorksheet.Cells[8, "D"] = tbNrExamTotal.Text;
+                excelWorksheet.Cells[8, "E"] = tbNrExamAge1M_Total.Text;
+                excelWorksheet.Cells[8, "F"] = tbNrExamAge1F_Total.Text;
+                excelWorksheet.Cells[8, "G"] = tbNrExamAge2M_Total.Text;
+                excelWorksheet.Cells[8, "H"] = tbNrExamAge2F_Total.Text;
+                excelWorksheet.Cells[8, "I"] = tbNrExamAge3M_Total.Text;
+                excelWorksheet.Cells[8, "J"] = tbNrExamAge3F_Total.Text;
+                excelWorksheet.Cells[8, "K"] = tbNrExamAge4M_Total.Text;
+                excelWorksheet.Cells[8, "L"] = tbNrExamAge4F_Total.Text;
+                excelWorksheet.Cells[8, "M"] = tbNrExamAge5M_Total.Text;
+                excelWorksheet.Cells[8, "N"] = tbNrExamAge5F_Total.Text;
+
+                
+                
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
 

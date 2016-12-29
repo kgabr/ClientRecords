@@ -31,7 +31,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.tbNrExamTotal = new System.Windows.Forms.TextBox();
-            this.tbNrExamAgeYoung4 = new System.Windows.Forms.TextBox();
+            this.tbNrExamAge1M_Total = new System.Windows.Forms.TextBox();
             this.tbNrExamAge1F_Total = new System.Windows.Forms.TextBox();
             this.tbNrExamAge2M_Total = new System.Windows.Forms.TextBox();
             this.tbNrExamAge2F_Total = new System.Windows.Forms.TextBox();
@@ -176,7 +176,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.tbNrExamTotal, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.tbNrExamAgeYoung4, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.tbNrExamAge1M_Total, 3, 6);
             this.tableLayoutPanel1.Controls.Add(this.tbNrExamAge1F_Total, 4, 6);
             this.tableLayoutPanel1.Controls.Add(this.tbNrExamAge2M_Total, 5, 6);
             this.tableLayoutPanel1.Controls.Add(this.tbNrExamAge2F_Total, 6, 6);
@@ -318,14 +318,14 @@
             this.tbNrExamTotal.TabIndex = 20;
             this.tbNrExamTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // tbNrExamAgeYoung4
+            // tbNrExamAge1M_Total
             // 
-            this.tbNrExamAgeYoung4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tbNrExamAgeYoung4.Location = new System.Drawing.Point(193, 209);
-            this.tbNrExamAgeYoung4.Name = "tbNrExamAgeYoung4";
-            this.tbNrExamAgeYoung4.Size = new System.Drawing.Size(36, 20);
-            this.tbNrExamAgeYoung4.TabIndex = 24;
-            this.tbNrExamAgeYoung4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbNrExamAge1M_Total.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbNrExamAge1M_Total.Location = new System.Drawing.Point(193, 209);
+            this.tbNrExamAge1M_Total.Name = "tbNrExamAge1M_Total";
+            this.tbNrExamAge1M_Total.Size = new System.Drawing.Size(36, 20);
+            this.tbNrExamAge1M_Total.TabIndex = 24;
+            this.tbNrExamAge1M_Total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbNrExamAge1F_Total
             // 
@@ -1458,7 +1458,7 @@
         private System.Windows.Forms.TextBox tbNrExamTotal;
         private System.Windows.Forms.TextBox tbNrExamAge1M_D2;
         private System.Windows.Forms.TextBox tbNrExamAge1M_D3;
-        private System.Windows.Forms.TextBox tbNrExamAgeYoung4;
+        private System.Windows.Forms.TextBox tbNrExamAge1M_Total;
         private System.Windows.Forms.TextBox tbNrExamAge1M_D1;
         private System.Windows.Forms.TextBox tbNrExamAge3M_Total;
         private System.Windows.Forms.TextBox tbNrExamAge2F_Total;
