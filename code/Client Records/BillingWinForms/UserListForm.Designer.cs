@@ -45,9 +45,10 @@
             this.btnModify = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
-            this.dtLastReport = new System.Windows.Forms.DateTimePicker();
+            this.dtShowFrom = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.btnNewWithLastUser = new System.Windows.Forms.Button();
+            this.dtShowUntil = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // userListFormListView
@@ -67,10 +68,10 @@
             this.columnHeader11});
             this.userListFormListView.FullRowSelect = true;
             this.userListFormListView.GridLines = true;
-            this.userListFormListView.Location = new System.Drawing.Point(12, 41);
+            this.userListFormListView.Location = new System.Drawing.Point(12, 69);
             this.userListFormListView.MaximumSize = new System.Drawing.Size(1887, 1500);
             this.userListFormListView.Name = "userListFormListView";
-            this.userListFormListView.Size = new System.Drawing.Size(891, 501);
+            this.userListFormListView.Size = new System.Drawing.Size(891, 473);
             this.userListFormListView.TabIndex = 0;
             this.userListFormListView.UseCompatibleStateImageBehavior = false;
             this.userListFormListView.View = System.Windows.Forms.View.Details;
@@ -180,21 +181,23 @@
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
-            // dtLastReport
+            // dtShowFrom
             // 
-            this.dtLastReport.Location = new System.Drawing.Point(569, 13);
-            this.dtLastReport.Name = "dtLastReport";
-            this.dtLastReport.Size = new System.Drawing.Size(200, 20);
-            this.dtLastReport.TabIndex = 5;
+            this.dtShowFrom.Location = new System.Drawing.Point(569, 13);
+            this.dtShowFrom.Name = "dtShowFrom";
+            this.dtShowFrom.Size = new System.Drawing.Size(200, 20);
+            this.dtShowFrom.TabIndex = 5;
+            this.dtShowFrom.Value = new System.DateTime(2016, 11, 29, 0, 0, 0, 0);
+            this.dtShowFrom.ValueChanged += new System.EventHandler(this.dtShowFrom_ValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(457, 17);
+            this.label1.Location = new System.Drawing.Point(490, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 13);
+            this.label1.Size = new System.Drawing.Size(73, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Data ultimei raportari:";
+            this.label1.Text = "Afiseaza intre:";
             // 
             // btnNewWithLastUser
             // 
@@ -206,6 +209,15 @@
             this.btnNewWithLastUser.UseVisualStyleBackColor = true;
             this.btnNewWithLastUser.Click += new System.EventHandler(this.btnNewWithLastUser_Click);
             // 
+            // dtShowUntil
+            // 
+            this.dtShowUntil.Location = new System.Drawing.Point(569, 39);
+            this.dtShowUntil.Name = "dtShowUntil";
+            this.dtShowUntil.Size = new System.Drawing.Size(200, 20);
+            this.dtShowUntil.TabIndex = 5;
+            this.dtShowUntil.Value = new System.DateTime(2016, 12, 29, 0, 0, 0, 0);
+            this.dtShowUntil.ValueChanged += new System.EventHandler(this.dtShowUntil_ValueChanged);
+            // 
             // UserListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,7 +225,8 @@
             this.ClientSize = new System.Drawing.Size(942, 554);
             this.Controls.Add(this.btnNewWithLastUser);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dtLastReport);
+            this.Controls.Add(this.dtShowUntil);
+            this.Controls.Add(this.dtShowFrom);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnModify);
@@ -248,8 +261,9 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.DateTimePicker dtLastReport;
+        private System.Windows.Forms.DateTimePicker dtShowFrom;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnNewWithLastUser;
+        private System.Windows.Forms.DateTimePicker dtShowUntil;
     }
 }

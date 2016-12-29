@@ -27,8 +27,17 @@ namespace BillingWinForms
             BusinessLogic db = BusinessLogic.DB;
 
             User[] list = db.GetUsers();
+            List<User> showList = new List<User>();
+            foreach (User user in list) 
+            {
+                if ((DateTime.Compare(BusinessLogic.DB.convertStringToDateTime(user.DateExp), dtShowFrom.Value) >= 0) && 
+                    (DateTime.Compare(BusinessLogic.DB.convertStringToDateTime(user.DateExp), dtShowUntil.Value) <= 0))
+                {
+                    showList.Add(user);
+                }
+            }
             nrCrt = 1;
-            foreach(User usr in list)
+            foreach(User usr in showList)
             {
                 ListViewItem item = userListFormListView.Items.Add(usr.UserID.ToString()); 
                 item.SubItems.Add(nrCrt.ToString());
@@ -137,14 +146,14 @@ namespace BillingWinForms
             }
         }
 
+        private void dtShowFrom_ValueChanged(object sender, EventArgs e)
+        {
+            RefreshList();
+        }
 
-
-
-
-        
-
-       
-
-
+        private void dtShowUntil_ValueChanged(object sender, EventArgs e)
+        {
+            RefreshList();
+        }
     }
 }

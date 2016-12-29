@@ -493,7 +493,7 @@ namespace Billing
             }
 
         //converts string with the format dd-mm-yyyy to DateTime
-        private DateTime convertStringToDateTime(String date)
+        public DateTime convertStringToDateTime(String date)
         {
             date = date.Replace("-", "/");
             IFormatProvider culture = new System.Globalization.CultureInfo("ro-RO", true);
