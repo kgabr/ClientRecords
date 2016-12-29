@@ -270,165 +270,30 @@ namespace Billing
 
         // TABLE DATA HANDLING METHODS
         
-        public int GetUsersCount()
+        public int GetRecordsCount()
         {
-            int userCount=0;
+            int recordsCount=0;
             foreach (User temp in users)
             {
-                userCount++;
+                recordsCount++;
             }
-            return userCount;
+            return recordsCount;
         }
 
-        //compares the specified date and the measured date, and returns data only from measurements where the date of measurement is newer.
-        public int GetUsersCount(DateTime dateSpecified)
+        //compares the specified date and the measurement dates, and returns data only from measurements newer than specified.
+        public int GetRecordsCount(DateTime dateSpecified)
         {
-            int userCount = 0;
+            int recordsCount = 0;
             foreach (User user in users)
             {
                 DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
                 
                 if (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0) 
                 {
-                    userCount++;    
+                    recordsCount++;    
                 }
             }
-            return userCount;
-        }
-
-        public int GetUsersAgeYoung()
-        {
-            int youngUsers = 0;
-            foreach (User temp in users)
-            {
-                if (temp.Age<=15)
-                {
-                    youngUsers++;
-                }
-            }
-            return youngUsers;
-        }
-
-        public int GetUsersAgeYoung(DateTime dateSpecified)
-        {
-            int youngUsers = 0;
-            foreach (User  user in users)
-            {
-                DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
-                if (user.Age <= 15 && DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0)
-                {
-                    youngUsers++;
-                }
-            }
-            return youngUsers;
-        }
-
-        public int GetUsersAgeMid()
-        {
-            int midUsers = 0;
-            foreach (User temp in users)
-            {
-                if ((temp.Age > 15)&&(temp.Age<=40))
-                {
-                    midUsers++;
-                }
-            }
-            return midUsers;
-        }
-
-        public int GetUsersAgeMid(DateTime dateSpecified)
-        {
-            int midUsers = 0;
-            foreach (User user in users)
-            {
-                DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
-                if ((user.Age > 15) && (user.Age <= 40) && (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0))
-                {
-                    midUsers++;
-                }
-            }
-            return midUsers;
-        }
-
-        public int GetUsersAgeOld()
-        {
-            int oldUsers = 0;
-            foreach (User temp in users)
-            {
-                if (temp.Age > 40)
-                {
-                    oldUsers++;
-                }
-            }
-            return oldUsers;
-        }
-
-        public int GetUsersAgeOld(DateTime dateSpecified)
-        {
-            int oldUsers = 0;
-            foreach (User user in users)
-            {
-                DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
-                if ((user.Age > 40) && (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0))
-                {
-                    oldUsers++;
-                }
-            }
-            return oldUsers;
-        }
-
-        public int GetSexM()
-        {
-            int mUsers = 0;
-            foreach (User temp in users)
-            {
-                if (temp.Sex == "M")
-                {
-                    mUsers++;
-                }
-            }
-            return mUsers;
-        }
-
-        public int GetSexM(DateTime dateSpecified)
-        {
-            int mUsers = 0;
-            foreach (User user in users)
-            {
-                DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
-                if ((user.Sex == "M") && (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0))
-                {
-                    mUsers++;
-                }
-            }
-            return mUsers;
-        }
-
-        public int GetSexF()
-        {
-            int fUsers = 0;
-            foreach (User temp in users)
-            {
-                if (temp.Sex == "F")
-                {
-                    fUsers++;
-                }
-            }
-            return fUsers;
-        }
-
-        public int GetSexF(DateTime dateSpecified)
-        {
-            int fUsers = 0;
-            foreach (User user in users)
-            {
-                DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
-                if ((user.Sex == "F") && (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0))
-                {
-                    fUsers++;
-                }
-            }
-            return fUsers;
+            return recordsCount;
         }
 
         public float GetDosage()
@@ -459,6 +324,43 @@ namespace Billing
             }
             avgDosage = avgDosage / i;
             return avgDosage;
+        }
+
+        public int GetRecordsCountBySexAndAge(String sex, int AgeFrom, int AgeUntil)
+        {
+            if (!(sex.Equals("F") || sex.Equals("M")))
+            {
+                return 0;
+            }
+
+            int recordsFound = 0;
+            foreach (User user in users)
+            {
+                if ((user.Sex.Equals(sex)) && (user.Age >= AgeFrom) && (user.Age <= AgeUntil))
+                {
+                    recordsFound++;
+                }
+            }
+            return recordsFound;
+        }
+
+        public int GetRecordsCountBySexAndAge(String sex, int AgeFrom, int AgeUntil, DateTime dateSpecified)
+        {
+            if (!(sex.Equals("F") || sex.Equals("M")))
+            {
+                return 0;
+            }
+
+            int recordsFound = 0;
+            foreach (User user in users)
+            {
+                DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
+                if ((user.Sex.Equals(sex)) && (user.Age >= AgeFrom) && (user.Age <= AgeUntil) && (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0))
+                {
+                    recordsFound++;
+                }
+            }
+            return recordsFound;
         }
         
         public bool VerifyCnp(string CNP)

@@ -241,6 +241,42 @@
             <TimeExp>6</TimeExp>
             <DateExp>27-12-2016</DateExp>
         </User>
+        <User>
+            <UserID>23</UserID>
+            <Name>Jordas</Name>
+            <Cnp>6151011354646</Cnp>
+            <Age>1</Age>
+            <Sex>F</Sex>
+            <Height>12</Height>
+            <Weight>12</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>0</TimeExp>
+            <DateExp>28-12-2016</DateExp>
+        </User>
+        <User>
+            <UserID>24</UserID>
+            <Name>Jordas</Name>
+            <Cnp>6151011354646</Cnp>
+            <Age>1</Age>
+            <Sex>F</Sex>
+            <Height>12</Height>
+            <Weight>12</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>13</TimeExp>
+            <DateExp>28-12-2016</DateExp>
+        </User>
+        <User>
+            <UserID>25</UserID>
+            <Name>Bacsi</Name>
+            <Cnp>1571016336174</Cnp>
+            <Age>59</Age>
+            <Sex>M</Sex>
+            <Height>156</Height>
+            <Weight>167</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>0</TimeExp>
+            <DateExp>28-12-2016</DateExp>
+        </User>
     </users>
     <number>1</number>
 </XMLData>

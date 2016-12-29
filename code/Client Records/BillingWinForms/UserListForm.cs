@@ -68,7 +68,6 @@ namespace BillingWinForms
         {
             User u = BusinessLogic.DB.GetLastRecordDatas();
             u.UserID++;
-            u.Name = "PIIIISKTA";
             UserListDialog dlg = new UserListDialog();
             dlg.isNewEntyWithLastData = true;
             dlg.User = u;
