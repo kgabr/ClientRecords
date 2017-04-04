@@ -237,37 +237,6 @@ namespace Billing
 
         public static readonly BusinessLogic DB = new BusinessLogic();
 
-
-        //EXPORT TO EXCEL 
-        /*public void ExportIntoExcel(ListView lvExport, string Header, string FileName)
-        {
-            try
-            {
-                System.Web.HttpContext.Current.Response.Clear();
-                System.Web.HttpContext.Current.Response.ContentType = "application/vnd.ms-excel";
-                System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=" + FileName + ".xls");
-                System.Web.HttpContext.Current.Response.Charset = "";
-                System.Web.HttpContext.Current.Response.Cache.SetCacheability(HttpCacheability.NoCache);
-                StringWriter stringWrite = new StringWriter();
-                stringWrite.Write(Header);
-                stringWrite.WriteLine();
-                HtmlTextWriter htmlWrite = new HtmlTextWriter(stringWrite);
-                HtmlForm frm = new HtmlForm();
-                lvExport.Parent.Controls.Add(frm);
-                frm.Controls.Add(lvExport);
-                frm.RenderControl(htmlWrite);
-                System.Web.HttpContext.Current.Response.Write(stringWrite.ToString());
-
-            }
-            catch (Exception ex)
-            {
-            }
-            finally
-            {
-                System.Web.HttpContext.Current.Response.End();
-            }
-        }*/
-
         // TABLE DATA HANDLING METHODS
         
         public int GetRecordsCount()
@@ -328,6 +297,7 @@ namespace Billing
 
         public int GetRecordsCountBySexAndAge(String sex, int AgeFrom, int AgeUntil)
         {
+            Cursor.Current = Cursors.WaitCursor;
             if (!(sex.Equals("F") || sex.Equals("M")))
             {
                 return 0;
@@ -341,6 +311,7 @@ namespace Billing
                     recordsFound++;
                 }
             }
+            Cursor.Current = Cursors.Default;
             return recordsFound;
         }
 
@@ -351,11 +322,12 @@ namespace Billing
                 return 0;
             }
 
+            DateTime dateSpecifiedWithoutHours = new DateTime(dateSpecified.Year, dateSpecified.Month, dateSpecified.Day, 0, 0, 0);
             int recordsFound = 0;
             foreach (User user in users)
             {
                 DateTime dateOfMeasurement = convertStringToDateTime(user.DateExp);
-                if ((user.Sex.Equals(sex)) && (user.Age >= AgeFrom) && (user.Age <= AgeUntil) && (DateTime.Compare(dateSpecified, dateOfMeasurement) <= 0))
+                    if ((user.Sex.Equals(sex)) && (user.Age >= AgeFrom) && (user.Age <= AgeUntil) && (DateTime.Compare(dateSpecifiedWithoutHours, dateOfMeasurement) <= 0))
                 {
                     recordsFound++;
                 }
@@ -400,7 +372,6 @@ namespace Billing
             {
                 if (String.Equals(usr.Cnp.ToString(), CNP))
                 {
-                    //MessageBox.Show("MATCH");
                     return true;
                 }
             }

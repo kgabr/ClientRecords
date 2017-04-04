@@ -24,13 +24,12 @@ namespace BillingWinForms
         public UserListGenerateDialog()
         {
                 InitializeComponent();
-        
                 fillTable();        
         }
         private void fillTable()
         {
             this.tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-            tbNrExamTotal_D1.Text = BusinessLogic.DB.GetRecordsCount().ToString();
+            
             tbNrExamAge1M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 0, 4).ToString();
             tbNrExamAge1F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 0, 4).ToString();
             tbNrExamAge2M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 5, 9).ToString();
@@ -42,37 +41,61 @@ namespace BillingWinForms
             tbNrExamAge5M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 40, 100).ToString();
             tbNrExamAge5F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 40, 100).ToString();
 
-            tbNrExamTotal.Text = tbNrExamTotal_D1.Text;
-            tbNrExamAge1M_Total.Text = tbNrExamAge1M_D1.Text;
-            tbNrExamAge1F_Total.Text = tbNrExamAge1F_D1.Text;
-            tbNrExamAge2M_Total.Text = tbNrExamAge2M_D1.Text;
-            tbNrExamAge2F_Total.Text = tbNrExamAge2F_D1.Text;
-            tbNrExamAge3M_Total.Text = tbNrExamAge3M_D1.Text;
-            tbNrExamAge3F_Total.Text = tbNrExamAge3F_D1.Text;
-            tbNrExamAge4M_Total.Text = tbNrExamAge4M_D1.Text;
-            tbNrExamAge4F_Total.Text = tbNrExamAge4F_D1.Text;
-            tbNrExamAge5M_Total.Text = tbNrExamAge5M_D1.Text;
-            tbNrExamAge5F_Total.Text = tbNrExamAge5F_D1.Text;
+            tbNrExamTotal_D1.Text = BusinessLogic.DB.GetRecordsCount().ToString();
+
+            fillTotals();
 
         }
-        private void filltableAccordingToDatePicker()
+        private void fillTable(DateTime dateSpecified)
         {
-            DateTime dateSpecified = this.dtReportDate.Value;
             this.tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
 
-            tbNrExamTotal_D1.Text = BusinessLogic.DB.GetRecordsCount(dateSpecified).ToString();
-            tbNrExamAge1M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 0, 4, dateSpecified).ToString();
-            tbNrExamAge1F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 0, 4, dateSpecified).ToString();
-            tbNrExamAge2M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 5, 9, dateSpecified).ToString();
-            tbNrExamAge2F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 5, 9, dateSpecified).ToString();
-            tbNrExamAge3M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 10, 14, dateSpecified).ToString();
-            tbNrExamAge3F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 10, 14, dateSpecified).ToString();
-            tbNrExamAge4M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 15, 39, dateSpecified).ToString();
-            tbNrExamAge4F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 15, 39, dateSpecified).ToString();
-            tbNrExamAge5M_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 40, 100, dateSpecified).ToString();
-            tbNrExamAge5F_D1.Text = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 40, 100, dateSpecified).ToString();
-        }
-        
+            int firstRowCount = 0;
+            int temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 0, 4, dateSpecified);
+            tbNrExamAge1M_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 0, 4, dateSpecified);
+            tbNrExamAge1F_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 5, 9, dateSpecified);
+            tbNrExamAge2M_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 5, 9, dateSpecified);
+            tbNrExamAge2F_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 10, 14, dateSpecified);
+            tbNrExamAge3M_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 10, 14, dateSpecified);
+            tbNrExamAge3F_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 15, 39, dateSpecified);
+            tbNrExamAge4M_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 15, 39, dateSpecified);
+            tbNrExamAge4F_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("M", 40, 100, dateSpecified);
+            tbNrExamAge5M_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            temp = BusinessLogic.DB.GetRecordsCountBySexAndAge("F", 40, 100, dateSpecified);
+            tbNrExamAge5F_D1.Text = temp.ToString();
+            firstRowCount += temp;
+
+            tbNrExamTotal_D1.Text = firstRowCount.ToString();
+
+            fillTotals();
+            
+        }       
 
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -175,12 +198,32 @@ namespace BillingWinForms
         {
             if (this.rbGenerateSettingAll.Checked)
             {
+                Cursor.Current = Cursors.WaitCursor;
                 fillTable();
+                Cursor.Current = Cursors.Default;
             }
             if (this.rbGenerateSettingDate.Checked)
             {
-                filltableAccordingToDatePicker();
+                Cursor.Current = Cursors.WaitCursor;
+                fillTable(this.dtReportDate.Value);
+                Cursor.Current = Cursors.Default;
             }
         }
+
+        private void fillTotals() 
+        {
+            tbNrExamTotal.Text = tbNrExamTotal_D1.Text;
+            tbNrExamAge1M_Total.Text = tbNrExamAge1M_D1.Text;
+            tbNrExamAge1F_Total.Text = tbNrExamAge1F_D1.Text;
+            tbNrExamAge2M_Total.Text = tbNrExamAge2M_D1.Text;
+            tbNrExamAge2F_Total.Text = tbNrExamAge2F_D1.Text;
+            tbNrExamAge3M_Total.Text = tbNrExamAge3M_D1.Text;
+            tbNrExamAge3F_Total.Text = tbNrExamAge3F_D1.Text;
+            tbNrExamAge4M_Total.Text = tbNrExamAge4M_D1.Text;
+            tbNrExamAge4F_Total.Text = tbNrExamAge4F_D1.Text;
+            tbNrExamAge5M_Total.Text = tbNrExamAge5M_D1.Text;
+            tbNrExamAge5F_Total.Text = tbNrExamAge5F_D1.Text;
+        }
+
     }
 }

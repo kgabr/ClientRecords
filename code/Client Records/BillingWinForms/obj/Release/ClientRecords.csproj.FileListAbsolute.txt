@@ -110,3 +110,4 @@ I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\Billi
 I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListForm.resources
 I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\BillingWinForms.UserListGenerateDialog.resources
 I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\ClientRecords.csproj.GenerateResource.Cache
+I:\_projects\ClientRecords\code\Client Records\BillingWinForms\obj\Release\ClientRecords.csprojResolveAssemblyReference.cache

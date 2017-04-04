@@ -187,7 +187,7 @@
             this.dtShowFrom.Name = "dtShowFrom";
             this.dtShowFrom.Size = new System.Drawing.Size(200, 20);
             this.dtShowFrom.TabIndex = 5;
-            this.dtShowFrom.Value = new System.DateTime(2016, 11, 29, 0, 0, 0, 0);
+            this.dtShowFrom.Value = new System.DateTime(System.DateTime.Now.Year, 1, 1) ;
             this.dtShowFrom.ValueChanged += new System.EventHandler(this.dtShowFrom_ValueChanged);
             // 
             // label1
@@ -211,11 +211,12 @@
             // 
             // dtShowUntil
             // 
+            
             this.dtShowUntil.Location = new System.Drawing.Point(569, 39);
             this.dtShowUntil.Name = "dtShowUntil";
             this.dtShowUntil.Size = new System.Drawing.Size(200, 20);
             this.dtShowUntil.TabIndex = 5;
-            this.dtShowUntil.Value = new System.DateTime(2016, 12, 29, 0, 0, 0, 0);
+            this.dtShowUntil.Value = System.DateTime.Today;
             this.dtShowUntil.ValueChanged += new System.EventHandler(this.dtShowUntil_ValueChanged);
             // 
             // UserListForm

@@ -23,6 +23,7 @@ namespace BillingWinForms
 
         public void RefreshList()
         {
+            Cursor.Current = Cursors.WaitCursor;
             userListFormListView.Items.Clear();
             BusinessLogic db = BusinessLogic.DB;
 
@@ -54,6 +55,7 @@ namespace BillingWinForms
                 nrCrt++;
                 BusinessLogic.DB.Write();
             }
+            Cursor.Current = Cursors.Default;
         }
 
         private void UserListForm_Load(object sender, EventArgs e)

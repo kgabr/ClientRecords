@@ -7801,6 +7801,54 @@
             <TimeExp>64</TimeExp>
             <DateExp>21-12-2016</DateExp>
         </User>
+        <User>
+            <UserID>653</UserID>
+            <Name>CSIKI SANDOR</Name>
+            <Cnp>1670419192460</Cnp>
+            <Age>49</Age>
+            <Sex>M</Sex>
+            <Height>182</Height>
+            <Weight>79</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>1</TimeExp>
+            <DateExp>21-12-2016</DateExp>
+        </User>
+        <User>
+            <UserID>654</UserID>
+            <Name>CSIKI SANDOR</Name>
+            <Cnp>1670419192460</Cnp>
+            <Age>49</Age>
+            <Sex>M</Sex>
+            <Height>182</Height>
+            <Weight>79</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>33</TimeExp>
+            <DateExp>21-12-2016</DateExp>
+        </User>
+        <User>
+            <UserID>655</UserID>
+            <Name>Kalman Gabor</Name>
+            <Cnp>1820811260018</Cnp>
+            <Age>34</Age>
+            <Sex>M</Sex>
+            <Height>182</Height>
+            <Weight>80</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>0</TimeExp>
+            <DateExp>04-04-2017</DateExp>
+        </User>
+        <User>
+            <UserID>656</UserID>
+            <Name>Kalman Gabor</Name>
+            <Cnp>1820811260018</Cnp>
+            <Age>34</Age>
+            <Sex>M</Sex>
+            <Height>182</Height>
+            <Weight>80</Weight>
+            <Pregnant>NU</Pregnant>
+            <TimeExp>0</TimeExp>
+            <DateExp>04-04-2017</DateExp>
+        </User>
     </users>
     <number>1</number>
 </XMLData>
