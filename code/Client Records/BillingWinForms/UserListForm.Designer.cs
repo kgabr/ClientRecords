@@ -138,7 +138,7 @@
             this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNew.Location = new System.Drawing.Point(12, 12);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(88, 23);
+            this.btnNew.Size = new System.Drawing.Size(109, 47);
             this.btnNew.TabIndex = 1;
             this.btnNew.Text = "Adauga";
             this.btnNew.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -149,9 +149,9 @@
             // 
             this.btnModify.Image = ((System.Drawing.Image)(resources.GetObject("btnModify.Image")));
             this.btnModify.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModify.Location = new System.Drawing.Point(168, 12);
+            this.btnModify.Location = new System.Drawing.Point(174, 12);
             this.btnModify.Name = "btnModify";
-            this.btnModify.Size = new System.Drawing.Size(88, 23);
+            this.btnModify.Size = new System.Drawing.Size(88, 47);
             this.btnModify.TabIndex = 2;
             this.btnModify.Text = "Modifica";
             this.btnModify.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -163,9 +163,9 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(274, 12);
+            this.btnDelete.Location = new System.Drawing.Point(268, 12);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(88, 23);
+            this.btnDelete.Size = new System.Drawing.Size(88, 47);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Sterge";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -187,7 +187,7 @@
             this.dtShowFrom.Name = "dtShowFrom";
             this.dtShowFrom.Size = new System.Drawing.Size(200, 20);
             this.dtShowFrom.TabIndex = 5;
-            this.dtShowFrom.Value = new System.DateTime(System.DateTime.Now.Year, 1, 1) ;
+            this.dtShowFrom.Value = new System.DateTime(2017, 1, 1, 0, 0, 0, 0);
             this.dtShowFrom.ValueChanged += new System.EventHandler(this.dtShowFrom_ValueChanged);
             // 
             // label1
@@ -201,9 +201,9 @@
             // 
             // btnNewWithLastUser
             // 
-            this.btnNewWithLastUser.Location = new System.Drawing.Point(98, 12);
+            this.btnNewWithLastUser.Location = new System.Drawing.Point(117, 12);
             this.btnNewWithLastUser.Name = "btnNewWithLastUser";
-            this.btnNewWithLastUser.Size = new System.Drawing.Size(54, 23);
+            this.btnNewWithLastUser.Size = new System.Drawing.Size(51, 47);
             this.btnNewWithLastUser.TabIndex = 7;
             this.btnNewWithLastUser.Text = "Din Nou";
             this.btnNewWithLastUser.UseVisualStyleBackColor = true;
@@ -211,12 +211,11 @@
             // 
             // dtShowUntil
             // 
-            
             this.dtShowUntil.Location = new System.Drawing.Point(569, 39);
             this.dtShowUntil.Name = "dtShowUntil";
             this.dtShowUntil.Size = new System.Drawing.Size(200, 20);
             this.dtShowUntil.TabIndex = 5;
-            this.dtShowUntil.Value = System.DateTime.Today;
+            this.dtShowUntil.Value = new System.DateTime(2017, 4, 4, 0, 0, 0, 0);
             this.dtShowUntil.ValueChanged += new System.EventHandler(this.dtShowUntil_ValueChanged);
             // 
             // UserListForm
